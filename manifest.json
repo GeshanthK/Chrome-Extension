@@ -1,0 +1,19 @@
+{
+    "name": "Calender",
+    "description": "Go through calender",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "calender.html",
+        "default_icon": {
+            "128": "./logo.png"
+        }
+    },
+    "icons": {
+        "128": "./logo.png"
+    },
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
